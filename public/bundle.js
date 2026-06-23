@@ -1,0 +1,1 @@
+(()=>{"use strict";(new class{saludo(){console.log("Hola mundo")}}).saludo()})();
