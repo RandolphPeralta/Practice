@@ -15,7 +15,8 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
+    "start:terminal":"ts-node src/index.ts",
+    "build:web": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
