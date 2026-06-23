@@ -1,11 +1,1 @@
-let sign = prompt("What's your sign?");
-
-if (sign.toLowerCase() == "scorpio") {
-  alert("Wow! I'm a Scorpio too!");
-}
-
-// there are many ways to use the prompt feature
-sign = window.prompt(); // open the blank prompt window
-sign = prompt(); //  open the blank prompt window
-sign = window.prompt("Are you feeling lucky"); // open the window with Text "Are you feeling lucky"
-sign = window.prompt("Are you feeling lucky", "sure"); // open the window with Text "Are you feeling lucky" and default value "sure"
+const readline = require("readline"); const r_interface = readline.createInterface({ input: process.stdin, output: process.stdout, }); r_interface.question("What is your age? ", function (inp) { console.log(`Your age is ${inp}`); r_interface.close(); });
